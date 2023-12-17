@@ -1,0 +1,67 @@
+/* 
+
+Author : effect    date: 17/12/2023
+
+Project: Word Counter
+
+"""
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgb(73, 73, 72);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+    font-size: 22px;
+    margin-right: 225px;
+    margin-left: 225px;
+    margin-bottom: 50px;
+}
+
+textarea {
+  margin-top: 50px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+button {
+    margin-top: 25px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white; 
+    color: grey; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 13px; 
+    transition: background-color 0.3s ease;
+  }
+  
+button:hover {
+    background-color: grey;
+    color: white; 
+}
