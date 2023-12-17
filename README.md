@@ -2,19 +2,6 @@
 
 Welcome to my Word Counter project ! This simple web application, allows you to count the number of words in a given text. Below are the details to get started:
 
-## Project Structure
-
-The project is organized with the following structure:
-```
-word-counter/
-│
-├── index.html
-├── src/
-│   ├── style.css
-│   └── script.js
-└── README.md
-```
-
 ## Getting Started
 
 1. Clone or download the repository to your local machine:
