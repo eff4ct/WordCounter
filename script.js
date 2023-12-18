@@ -10,20 +10,20 @@ Project: Word Counter
 
 // Function to count words in the text
 function wd_count(text) {
-    const separators = [' ', '.', '?', ',', ';'];
+    const ponctuation = [' ', '.', '?', ',', ';', ':', '!', '*'];
     let count = 0;
-    let wd_start = false;
+    let start = false;
   
     // Iterating through each character in the text
     for (let i = 0; i < text.length; i++) {
         const char = text[i];
         // Checking if the character is a separator
-        if (separators.includes(char)) {
-            wd_start = false;
-        } else if (!wd_start) {
+        if (ponctuation.includes(char)) {
+            start = false;
+        } else if (!start) {
             // Incrementing the counter if it's the beginning of a word
             count += 1;
-            wd_start = true;
+            start = true;
         }
     }
   
